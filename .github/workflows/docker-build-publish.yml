@@ -41,13 +41,13 @@ jobs:
           buildkitd-flags: --debug
 
       - name: Log into Docker Hub
-        uses: docker/login-action@v2.1.0
+        uses: docker/login-action@v2.2.0
         with:
           username: dotwee
           password: ${{ secrets.DOCKER_REGISTRY_TOKEN }}
 
       - name: Log into GitHub registry
-        uses: docker/login-action@v2.1.0
+        uses: docker/login-action@v2.2.0
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
