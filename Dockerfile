@@ -11,7 +11,7 @@ WORKDIR /app
 COPY metrics.json metrics-lua.json /app/
 
 # Runtime Image
-FROM alpine:3.20.3 as runtime-image
+FROM alpine:3.21.2 as runtime-image
 
 ARG REPO=sberk42/fritzbox_exporter
 
