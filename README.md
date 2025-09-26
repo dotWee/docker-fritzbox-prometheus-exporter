@@ -26,7 +26,7 @@ Other changes:
 
 ## Building
 
-    go install github.com/sberk42/fritzbox_exporter@latest
+    go install github.com/dotWee/docker-fritzbox-prometheus-exporter@latest
 
 ## Running
 
